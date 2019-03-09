@@ -4,6 +4,7 @@ class ArrayExample{
 		String[] cars = {"BMW","VOLVO","LAMBO"};
 		printFirstElement(cars);
 		printSecondElement(names);
+		printThirdElement(names);
 		
 	}
 	private static void printFirstElement(String []x){
@@ -12,5 +13,9 @@ class ArrayExample{
 	public static void printSecondElement(String []x){
 		System.out.println("Second element is : "+x[1]);
 	}
-		
+	public static void printThirdElement(String []x){
+		for(int i=0;i<x.length;i++){
+			System.out.println("Third element is : "+x[i]);
+		}
+	}
 }
